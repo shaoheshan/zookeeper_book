@@ -1,3 +1,4 @@
+/*
 package book.chapter05;
 
 import java.util.ArrayList;
@@ -9,12 +10,14 @@ import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.data.ACL;
 
+*/
 /**
  * Description: ZooKeepre ACL权限控制 测试
  * 
  * @author nileader / nileader@gmail.com
  * @Date Feb 2, 2012
- */
+ *//*
+
 public class DemoAuth implements Watcher {
 
     final static String SERVER_LIST = "127.0.0.1:2181";
@@ -83,7 +86,9 @@ public class DemoAuth implements Watcher {
         zkClient.close();
     }
 
-    /** 获取数据：采用错误的密码 */
+    */
+/** 获取数据：采用错误的密码 *//*
+
     static void getDataByBadAuthentication() {
         String prefix = "[使用错误的授权信息]";
         try {
@@ -96,7 +101,9 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /** 获取数据：不采用密码 */
+    */
+/** 获取数据：不采用密码 *//*
+
     static void getDataByNoAuthentication() {
         String prefix = "[不使用任何授权信息]";
         try {
@@ -108,7 +115,9 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /** 采用正确的密码 */
+    */
+/** 采用正确的密码 *//*
+
     static void getDataByCorrectAuthentication() {
         String prefix = "[使用正确的授权信息]";
         try {
@@ -121,9 +130,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 更新数据：不采用密码
-     */
+     *//*
+
     static void updateDataByNoAuthentication() {
 
         String prefix = "[不使用任何授权信息]";
@@ -140,9 +151,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 更新数据：采用错误的密码
-     */
+     *//*
+
     static void updateDataByBadAuthentication() {
 
         String prefix = "[使用错误的授权信息]";
@@ -160,9 +173,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 更新数据：采用正确的密码
-     */
+     *//*
+
     static void updateDataByCorrectAuthentication() {
 
         String prefix = "[使用正确的授权信息]";
@@ -180,9 +195,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 不使用密码 删除节点
-     */
+     *//*
+
     static void deleteNodeByNoAuthentication() throws Exception {
 
         String prefix = "[不使用任何授权信息]";
@@ -199,9 +216,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 采用错误的密码删除节点
-     */
+     *//*
+
     static void deleteNodeByBadAuthentication() throws Exception {
 
         String prefix = "[使用错误的授权信息]";
@@ -219,9 +238,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 使用正确的密码删除节点
-     */
+     *//*
+
     static void deleteNodeByCorrectAuthentication() throws Exception {
 
         String prefix = "[使用正确的授权信息]";
@@ -239,9 +260,11 @@ public class DemoAuth implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 使用正确的密码删除节点
-     */
+     *//*
+
     static void deleteParent() throws Exception {
         try {
             zkClient = new ZkClient(SERVER_LIST, 50000);
@@ -262,3 +285,4 @@ public class DemoAuth implements Watcher {
     }
 
 }
+*/

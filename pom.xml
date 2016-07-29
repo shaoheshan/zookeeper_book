@@ -18,7 +18,7 @@
 		<maven-jar-plugin.version>2.3.2</maven-jar-plugin.version>
 
 		<zookeeper.version>3.4.5</zookeeper.version>
-		<zkclient.version>0.2-SNAPSHOT</zkclient.version>
+		<zkclient.version>0.1</zkclient.version>
 	</properties>
 
 	<build>

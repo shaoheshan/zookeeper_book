@@ -1,3 +1,4 @@
+/*
 package book.chapter05;
 
 import java.util.ArrayList;
@@ -9,12 +10,14 @@ import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.data.ACL;
 
+*/
 /**
  * Description: ZooKeepre ACL权限控制 测试
  * 
  * @author nileader / nileader@gmail.com
  * @Date Feb 2, 2012
- */
+ *//*
+
 public class DemoAuth2 implements Watcher {
 
     final static String SERVER_LIST = "127.0.0.1:2182";
@@ -56,7 +59,9 @@ public class DemoAuth2 implements Watcher {
         zkClient.close();
     }
 
-    /** 获取数据：采用错误的密码 */
+    */
+/** 获取数据：采用错误的密码 *//*
+
     static void getDataByBadAuthentication() {
         String prefix = "[使用错误的授权信息]";
         try {
@@ -69,7 +74,9 @@ public class DemoAuth2 implements Watcher {
         }
     }
 
-    /** 获取数据：不采用密码 */
+    */
+/** 获取数据：不采用密码 *//*
+
     static void getDataByNoAuthentication() {
         String prefix = "[不使用任何授权信息]";
         try {
@@ -81,7 +88,9 @@ public class DemoAuth2 implements Watcher {
         }
     }
 
-    /** 采用正确的密码 */
+    */
+/** 采用正确的密码 *//*
+
     static void getDataByCorrectAuthentication() {
         String prefix = "[使用正确的授权信息]";
         try {
@@ -101,3 +110,4 @@ public class DemoAuth2 implements Watcher {
     }
 
 }
+*/
